@@ -1,0 +1,26 @@
+﻿<Window x:Class="LivroApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LivroApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Inserir" HorizontalAlignment="Left" Margin="258,24,0,0" VerticalAlignment="Top" Click="Button_Click" Height="22" Width="67" RenderTransformOrigin="0.092,0.653"/>
+        <Button Content="Inserir" HorizontalAlignment="Left" Margin="259,141,0,0" VerticalAlignment="Top" Click="Button_Click" Height="22" Width="66" RenderTransformOrigin="-3.281,-0.233"/>
+        <TextBlock Text="GÊNERO:" TextWrapping="Wrap" Margin="19,24,723,388"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="19,87,0,0" Text="LIVRO:" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" RenderTransformOrigin="-8.159,4.407"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="82,24,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="82,87,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="82,141,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"/>
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="82,195,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="19,141,0,0" Text="VALOR:" TextWrapping="Wrap" VerticalAlignment="Top" Width="46"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="19,195,0,0" Text="AUTORES:" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <TextBox HorizontalAlignment="Left" Height="98" Margin="481,23,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
+        <TextBox HorizontalAlignment="Left" Height="76" Margin="481,141,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
+        <Button Content="LISTAR LIVROS:" HorizontalAlignment="Left" Margin="375,24,0,0" VerticalAlignment="Top" Click="Button_Click" Height="22" Width="91" RenderTransformOrigin="0.092,0.653"/>
+        <Button Content="MENOR VALOR:" HorizontalAlignment="Left" Margin="375,141,0,0" VerticalAlignment="Top" Click="Button_Click" Height="22" Width="91" RenderTransformOrigin="0.092,0.653"/>
+
+    </Grid>
+</Window>
